@@ -18,6 +18,9 @@ import { computed, ref } from 'vue';
 import { useAppStore } from '../stores/appStore'
 import checklist from '../components/Checklist.vue'
 
+// Only gets called one time.
+console.log("Rendering index.")
+
 const checklistName = ref('')
 const app = useAppStore()
 

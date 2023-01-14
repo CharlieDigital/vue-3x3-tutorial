@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import ChecklistDialog from './components/ChecklistDialog.vue';
+
+console.log("Rendering app.")
 </script>
 
 <template>
